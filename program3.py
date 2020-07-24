@@ -15,6 +15,7 @@ for i in range(n):
     graph[b].append(a)
     a1.extend([a,b,int(g),int(h)])
     a2.append(a1)
+#Funtion to find all the paths from source to destination
 def find_all_paths(graph, start, end, path=[]):
     path = path + [start]
     if start == end:
